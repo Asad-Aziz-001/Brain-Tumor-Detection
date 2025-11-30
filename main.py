@@ -39,14 +39,14 @@ st.set_page_config(
 # -----------------------------
 # Add background
 # -----------------------------
-add_bg_from_local(r"E:\Projects\Computer VIsion\Brain_Tumor_Detection\background.jpg")
+add_bg_from_local(r"C:\Users\ASAD AZIZ\Desktop\Brain_Tumor_Detection-main\background.jpg")
 
 st.title("🧠 Brain Tumor Detection using YOLO")
 
 # -----------------------------
 # Load YOLO model
 # -----------------------------
-MODEL_PATH = r"E:\Projects\Computer VIsion\Brain_Tumor_Detection\brain_tumor_detection.pt"
+MODEL_PATH = r"C:\Users\ASAD AZIZ\Desktop\Brain_Tumor_Detection-main\brain_tumor_detection.pt"
 if os.path.exists(MODEL_PATH):
     model = YOLO(MODEL_PATH)
 else:
@@ -62,7 +62,7 @@ if uploaded_file is not None:
     img = Image.open(uploaded_file).convert("RGB")
     img_array = np.array(img)
 
-    st.image(img, caption="Uploaded Image", use_column_width=True)
+    st.image(img, caption="Uploaded Image", use_container_width=True)
 
     # -----------------------------
     # Run YOLO inference
@@ -105,4 +105,4 @@ if uploaded_file is not None:
     # -----------------------------
     # Show result
     # -----------------------------
-    st.image(final_img, caption="Prediction with Mask", use_column_width=True)
+    st.image(final_img, caption="Prediction with Mask", use_container_width=True)
