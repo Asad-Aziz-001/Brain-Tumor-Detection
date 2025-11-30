@@ -59,8 +59,6 @@ brain-tumor-detection/
 
 # Dependencies
 
-Python >= 3.10
-
 Streamlit
 
 OpenCV (opencv-python)
