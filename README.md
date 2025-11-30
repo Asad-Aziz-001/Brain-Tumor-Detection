@@ -10,7 +10,7 @@
 
 *A powerful web application for detecting brain tumors in MRI scans using state-of-the-art YOLOv8 deep learning model*
 
-[![Demo](https://img.shields.io/badge/🚀-Live_Demo-blue?style=for-the-badge)](https://your-streamlit-app-link.streamlit.app/)
+[![Demo](https://img.shields.io/badge/🚀-Live_Demo-blue?style=for-the-badge)](https://brain-tumor-detection-342dgceyrprgskelub8cyj.streamlit.app/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 </div>
