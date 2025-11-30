@@ -50,24 +50,12 @@ Open the provided URL (usually http://localhost:8501) in your browser and upload
 
 # Project Structure
 brain-tumor-detection/
-│
+ │
 ├── main.py                    # Streamlit app
 ├── brain_tumor_detection.pt   # YOLO trained model
 ├── background.jpg             # Background image for the app
 ├── requirements.txt           # Python dependencies
-└── README.md
-
-# Dependencies
-
-Streamlit
-
-OpenCV (opencv-python)
-
-Ultralytics YOLO (ultralytics)
-
-NumPy
-
-Pillow
+ └── README.md
 
 # License
 
