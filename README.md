@@ -225,6 +225,8 @@ If you encounter any issues or have questions:
 
 *Contributions welcome! Help us make medical AI more accessible.*
 
-[⭐ Star this repo] • [🐛 Report Issues] • [💡 Suggest Features]
+⭐ Star this repo
+🐛 Report Issues
+💡 Suggest Features
 
 </div>
